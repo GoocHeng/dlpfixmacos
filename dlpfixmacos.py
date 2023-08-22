@@ -7,7 +7,7 @@ except:
 config = configparser.ConfigParser()
 
 filepath = '/Library/Application Support/DLP3.0/config/webservice.ini'
-# filepath = '/Users/wucheng3/Documents/works/DLP/peizhi/webservice.ini'
+# filepath = '/Users/[username]/Documents/works/DLP/peizhi/webservice.ini'
 
 if os.path.exists(filepath):
     config.read(filepath)
